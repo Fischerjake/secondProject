@@ -1,0 +1,53 @@
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: lightgray;
+}
+
+h2,
+p,
+.readme-wrapper {
+    text-align: center;
+}
+
+a {
+    color: red;
+    text-decoration: none;
+}
+
+a:hover {
+    cursor: pointer;
+    font-weight: bold;
+    color: blue
+}
+
+span {
+    color: green;
+    font-weight: 300;
+}
+
+.boxes {
+    margin: 10px;
+    padding: 10px;
+    border: solid;
+    border-color: aquamarine;
+    border-radius: 10%;
+    width: 30em;
+    display: block;
+}
+
+#box1 {
+    background-color: purple;
+}
+
+#box2 {
+    background-color: green;
+    position: relative;
+}
+
+#box3 {
+    background-color: blue;
+}
+
+#box4 {
+    background-color: yellow;
+}
