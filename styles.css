@@ -1,53 +1,33 @@
-body {
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    background-color: lightgray;
-}
-
-h2,
-p,
-.readme-wrapper {
+#board {
+    padding: 3em;
     text-align: center;
 }
 
-a {
-    color: red;
-    text-decoration: none;
+.row>div {
+    float: left;
+    height: 100px;
+    width: 100px;
 }
 
-a:hover {
+.row {
+    clear: both;
+    width: 302px;
+    margin: auto;
     cursor: pointer;
-    font-weight: bold;
-    color: blue
 }
 
-span {
-    color: green;
-    font-weight: 300;
+.top {
+    border-bottom: 1px black solid;
 }
 
-.boxes {
-    margin: 10px;
-    padding: 10px;
-    border: solid;
-    border-color: aquamarine;
-    border-radius: 10%;
-    width: 30em;
-    display: block;
+.bottom {
+    border-top: 1px black solid;
 }
 
-#box1 {
-    background-color: purple;
+.left {
+    border-right: 1px black solid;
 }
 
-#box2 {
-    background-color: green;
-    position: relative;
-}
-
-#box3 {
-    background-color: blue;
-}
-
-#box4 {
-    background-color: yellow;
+.right {
+    border-left: 1px black solid;
 }
